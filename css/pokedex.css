@@ -1,0 +1,82 @@
+#bordePokedex{
+    background-color: rgb(226, 222, 222);
+    height: 100%;
+    position: fixed;
+}
+
+#pantallaPokedex{
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    
+}
+
+#datosPantalla{  
+    
+    padding-bottom: 5;
+}
+
+#flecha{
+    color: black;
+    
+}
+
+
+#ordenarPor{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+*{
+    font-size: 14pt;
+}
+
+p{
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.card {
+
+    width: 15%;
+    height: 25vh;
+}
+
+.card-img-top {
+
+    position:relative;
+    left: 10%;
+    bottom: 13vh;
+}
+
+.planta{
+
+    background-color: #54DF6D;
+    border-radius: 15px;
+    margin-right: 5%;
+}
+
+.veneno {
+
+    background-color: #B78FE1;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+.card-body{
+
+    position: relative;
+    bottom: 20vh;
+}
+.h5{
+
+    font-weight: 100;
+    position: relative;
+    bottom: 17vh;
+}
+
+.modal-content{
+    
+    height: 50vh;
+}
