@@ -1,0 +1,58 @@
+#bordePokedex {
+    background-color: rgb(226, 222, 222);
+    height: 100%;
+    position: fixed;
+}
+
+#pantallaPokedex {
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#datosPantalla {
+    padding-bottom: 5;
+}
+
+#flecha {
+    color: black;
+}
+
+#ordenarPor {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+* {
+    font-size: 14pt;
+}
+
+p {
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.card {
+    width: 18%; 
+    height: 55vh; 
+    margin-bottom: 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+    max-height: 20vh; 
+}
+
+.card-body {
+    text-align: center; 
+    padding-top: 0.5rem; 
+}
+
+.btn {
+    margin-top: 0.5rem; 
+}
